@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+
+.ro{
+    background-color:lightblue;
+   overflow: hidden;
+   text-align: center;
+   height:70px;
+    
+}
+.github {
+    
+    top: 0;
+    left: 50%;
+    width: 50%;
+    height: 30%;
+    
+   
+  }
+
+
+
+  .playfold {
+    
+    top: 0;
+    left: 50%;
+    right:50%;
+    width: 50%;
+    height: 30%;
+    
+    
+  
+  }
+
+  .android {
+    
+    top: 0;
+    left: 50%;
+    width: 50%;
+    height: 30%;
+ 
+    
+  }
+
+  .container{
+      height:100%;
+      position: absolute;
+      width: 75%;
+      left: 50%;
+      right: 10%;
+
+  }
+ 
+  .container h1{
+      position:relative;
+      top:15px;
+      left:30px;
+  }
