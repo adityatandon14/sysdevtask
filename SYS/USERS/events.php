@@ -1,18 +1,12 @@
-<?
-session_start();
-
-if($_SESSION["user"]==true){
-
-}
-else{
-    header("Location:index.html");
-}
-?>
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <style>
+        .box{
+            border:solid 0.08rem black;
+            box-shadow: 2px 2px 4px black;
+        }
+    </style>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial=scale=1.0"/>
 	<meta http-equiv="X-UA-Compatible" content="ie=edge"/>
@@ -71,12 +65,14 @@ $result = $conn->query($sql);
   echo '<div class = "card ">';
 
   echo '<div class ="card-body">';
+
+    echo '<div class ="box">';
 	echo '<h5 class= "cardtitle"> EVENT ID '.$row['id'];
   echo '<h5 class= "cardtitle"> EVENT NAME '.$row['eventname'];
   echo '<h5 class = "cardtitle">DESCRIPTION:' .$row['Details'];
   echo '</h5>';
   echo '<div class = "float-right">';
-
+    echo '</div>';
   echo '</div>';
   echo '</div>';
   echo '</div>';
